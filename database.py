@@ -2,7 +2,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from pydantic import BaseModel
 from pymongo.mongo_client import MongoClient
 
-uri = "mongodb+srv://michelleCheng:fo5E8piThPR8QJmR@cluster0.4yijmgs.mongodb.net/masterdatabase?retryWrites=true&w=majority"
+uri = "mongodb+srv://michelleCheng:<PASSWORD>@cluster0.4yijmgs.mongodb.net/masterdatabase?retryWrites=true&w=majority"
 
 # Create a new client and connect to the server
 client = MongoClient(uri)
